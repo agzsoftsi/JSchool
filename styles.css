@@ -6,6 +6,10 @@
  #top-header{
      background-color: black;
  }
+
+ #top-logo{
+     border-width: 2px !important;
+ }
  
  .color-js{
 
