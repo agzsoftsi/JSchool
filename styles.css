@@ -16,3 +16,20 @@
      color: #FFD24D;
  }
 
+ .social-links{
+    color: #FFD24D;
+    margin: 5px;
+ }
+
+ footer a{
+    color: white;
+    margin: 5px; 
+    text-decoration: none;
+ }
+
+ footer a:hover{
+    color: #FFD24D;
+    margin: 5px; 
+    text-decoration: none;
+ }
+
