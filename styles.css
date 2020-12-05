@@ -33,3 +33,27 @@
     text-decoration: none;
  }
 
+
+
+ main .btn{
+     background-color: black;
+     text-align: center;
+     color: #FFD24D;
+ }
+
+ main .btn:hover{
+    background-color: #414141;
+    text-align: center;
+    color: white;
+}
+
+
+main .card:hover{
+   border: black solid 2px;
+   transform:scale(1.02);
+   transition:all .9s ease
+}
+
+
+
+
