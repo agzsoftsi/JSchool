@@ -10,6 +10,17 @@
  #top-logo{
      border-width: 2px !important;
  }
+
+ .list-group-item:hover i{
+    color: #FFD24D;
+ }
+ .list-group-item:hover{
+    color: white;
+    background-color: black;
+ }
+ .bg-black{
+     background-color: black;
+ }
  
  .color-js{
 
@@ -19,12 +30,14 @@
  .social-links{
     color: #FFD24D;
     margin: 5px;
+    content:unset;
  }
 
  footer a{
     color: white;
     margin: 5px; 
     text-decoration: none;
+    
  }
 
  footer a:hover{
