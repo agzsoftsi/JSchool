@@ -55,5 +55,14 @@ main .card:hover{
 }
 
 
+@media screen and (max-width:536px) {
+    .jumbotron .container{
+        display: flex;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+ 
 
 
+}
