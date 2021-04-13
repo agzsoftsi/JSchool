@@ -75,7 +75,12 @@ main .card:hover{
         justify-content: center !important;
         text-align: center !important;
     }
+
+    .text-title{
+        font-size: 20px;
+    }
  
 
 
 }
+
