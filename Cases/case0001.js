@@ -2,6 +2,7 @@
     A partir del siguiente array que se proporciona: var valores = [true, 5, false, "hola", "adios", 2];
 
     Determinar cual de los elementos de texto es mayor
+    Usar function way
 */
 
 var valores = [true, 5, false, "holas", "adios", 2];
