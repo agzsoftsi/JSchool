@@ -2,7 +2,7 @@
 // // usar el API https://pokeapi.co/
 // https://pokeapi.co/api/v2/
 //  y mostrar en consola los el id, nombre, tipo, de un pokemon que se ingrese por consola por ID y se muestre:
-const fetch = require('node-fetch');
+const fetch = require('../Cases/Case0003/node_modules/node-fetch');
 const URL = 'https://pokeapi.co/api/v2/pokemon/';
 
 console.log("Digite el ID del pokemon: ");

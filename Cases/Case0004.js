@@ -2,7 +2,7 @@
 // // usar el API https://pokeapi.co/
 // https://pokeapi.co/api/v2/
 //  y mostrar en consola los el id, nombre, tipo, de un poquemon que se ingrese por consola:
-const fetch = require('node-fetch');
+const fetch = require('../Cases/Case0003/node_modules/node-fetch');
 const URL = 'https://pokeapi.co/api/v2/pokemon/';
 
 const pokeInfo = (id) => {
