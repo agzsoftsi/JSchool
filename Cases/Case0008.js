@@ -259,9 +259,10 @@ const QUESTIONS = [
 
 
 function QuestionJs(){
+    let i = 0;
     let numQuestion = parseInt(Math.random() * (26 - 0));
     let quest = QUESTIONS[numQuestion].question;
-    let options = QUESTIONS[numQuestion].options.map(opt => opt);
+    let options = QUESTIONS[numQuestion].options.map(opt => '\n - '+opt);
     let answ = QUESTIONS[numQuestion].correctAnswer;
     return ('ID: '+numQuestion+
             '\nQuestion: '+quest+
